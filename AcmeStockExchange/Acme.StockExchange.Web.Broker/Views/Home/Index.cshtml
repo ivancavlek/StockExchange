@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="page-header">
+    <h1>Stocks</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Available stocks</h3>
+            </div>
+            <div>@Html.Partial("_StocksList")</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Add/Update stock</h3>
+            </div>
+            <div class="panel-body">@Html.Partial("_StockTransaction")</div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @System.Web.Optimization.Scripts.Render("~/stock")
+}

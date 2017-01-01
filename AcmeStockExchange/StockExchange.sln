@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DE3BEA96-CF0E-4883-BEB8-3E89620D6517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Domain", "Acme.StockExchange.Domain\Acme.StockExchange.Domain.csproj", "{C300A180-EF22-4D0D-941C-C8F6EF209FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Mapping", "Acme.StockExchange.Mapping\Acme.StockExchange.Mapping.csproj", "{C5314219-337A-46ED-AE76-2702B69F6560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Bootstrap", "Acme.StockExchange.Bootstrap\Acme.StockExchange.Bootstrap.csproj", "{094F5AF5-8EFE-4280-B7EF-74895D82EF6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{37440DC9-AB47-4943-8DF3-B2548959E986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Repository.EntityFramework", "Acme.StockExchange.Repository.EntityFramework\Acme.StockExchange.Repository.EntityFramework.csproj", "{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{423D3460-DF3E-4B59-A3BF-76DCC2DC3A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Web.Broker", "Acme.StockExchange.Web.Broker\Acme.StockExchange.Web.Broker.csproj", "{7687DD9B-C41F-440E-81CD-5D4E72088D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.StockExchange.Push.SignalR", "Acme.StockExchange.Push.SignalR\Acme.StockExchange.Push.SignalR.csproj", "{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C300A180-EF22-4D0D-941C-C8F6EF209FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C300A180-EF22-4D0D-941C-C8F6EF209FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C300A180-EF22-4D0D-941C-C8F6EF209FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C300A180-EF22-4D0D-941C-C8F6EF209FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5314219-337A-46ED-AE76-2702B69F6560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5314219-337A-46ED-AE76-2702B69F6560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5314219-337A-46ED-AE76-2702B69F6560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5314219-337A-46ED-AE76-2702B69F6560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094F5AF5-8EFE-4280-B7EF-74895D82EF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094F5AF5-8EFE-4280-B7EF-74895D82EF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094F5AF5-8EFE-4280-B7EF-74895D82EF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094F5AF5-8EFE-4280-B7EF-74895D82EF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7687DD9B-C41F-440E-81CD-5D4E72088D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7687DD9B-C41F-440E-81CD-5D4E72088D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7687DD9B-C41F-440E-81CD-5D4E72088D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7687DD9B-C41F-440E-81CD-5D4E72088D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C300A180-EF22-4D0D-941C-C8F6EF209FDA} = {DE3BEA96-CF0E-4883-BEB8-3E89620D6517}
+		{C5314219-337A-46ED-AE76-2702B69F6560} = {DE3BEA96-CF0E-4883-BEB8-3E89620D6517}
+		{094F5AF5-8EFE-4280-B7EF-74895D82EF6A} = {DE3BEA96-CF0E-4883-BEB8-3E89620D6517}
+		{493DCC2E-D070-4AB2-BB16-9991AD8F6AF5} = {37440DC9-AB47-4943-8DF3-B2548959E986}
+		{7687DD9B-C41F-440E-81CD-5D4E72088D08} = {423D3460-DF3E-4B59-A3BF-76DCC2DC3A11}
+		{3F1396D5-A0E4-4125-8BBC-51D7E1AF935E} = {423D3460-DF3E-4B59-A3BF-76DCC2DC3A11}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vjeverica.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Acme.StockExchange.Domain\\Acme.StockExchange.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = StockExchange.sln
+		SccProjectName1 = Acme.StockExchange.Domain
+		SccLocalPath1 = Acme.StockExchange.Domain
+		SccProjectUniqueName2 = Acme.StockExchange.Mapping\\Acme.StockExchange.Mapping.csproj
+		SccProjectTopLevelParentUniqueName2 = StockExchange.sln
+		SccProjectName2 = Acme.StockExchange.Mapping
+		SccLocalPath2 = Acme.StockExchange.Mapping
+		SccProjectUniqueName3 = Acme.StockExchange.Bootstrap\\Acme.StockExchange.Bootstrap.csproj
+		SccProjectTopLevelParentUniqueName3 = StockExchange.sln
+		SccProjectName3 = Acme.StockExchange.Bootstrap
+		SccLocalPath3 = Acme.StockExchange.Bootstrap
+		SccProjectUniqueName4 = Acme.StockExchange.Repository.EntityFramework\\Acme.StockExchange.Repository.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName4 = StockExchange.sln
+		SccProjectName4 = Acme.StockExchange.Repository.EntityFramework
+		SccLocalPath4 = Acme.StockExchange.Repository.EntityFramework
+		SccProjectUniqueName5 = Acme.StockExchange.Web.Broker\\Acme.StockExchange.Web.Broker.csproj
+		SccProjectTopLevelParentUniqueName5 = StockExchange.sln
+		SccProjectName5 = Acme.StockExchange.Web.Broker
+		SccLocalPath5 = Acme.StockExchange.Web.Broker
+		SccProjectUniqueName6 = Acme.StockExchange.Push.SignalR\\Acme.StockExchange.Push.SignalR.csproj
+		SccProjectTopLevelParentUniqueName6 = StockExchange.sln
+		SccProjectName6 = Acme.StockExchange.Push.SignalR
+		SccLocalPath6 = Acme.StockExchange.Push.SignalR
+	EndGlobalSection
+EndGlobal

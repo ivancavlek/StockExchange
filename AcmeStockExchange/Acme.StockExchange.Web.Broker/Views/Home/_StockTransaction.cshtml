@@ -1,0 +1,26 @@
+﻿<form id="frmStock" data-bind="submit: UpsertStock">
+    <fieldset>
+        <legend>Stock</legend>
+        <div class="form-group">
+            <label for="iptTickerSymbol">Ticker symbol</label>
+            <input id="iptTickerSymbol" class="form-control" data-bind="value: SelectedStock.TickerSymbol" name="iptTickerSymbol" placeholder="Ticker symbol" required type="text" />
+        </div>
+        <div class="form-group">
+            <label for="iptOfferingAmount">Offering amount</label>
+            <input id="iptOfferingAmount" class="form-control" data-bind="value: SelectedStock.OfferingAmount" name="iptOfferingAmount" placeholder="Offering amount" required type="text" />
+        </div>
+        <div class="form-group">
+            <label for="iptOfferingPrice">Offering price</label>
+            <div class="input-group">
+                <input id="iptOfferingPrice" class="form-control" data-bind="value: SelectedStock.OfferingPrice" name="iptOfferingPrice" placeholder="Offering price" required type="text" />
+                <span class="input-group-addon">€</span>
+            </div>
+        </div>
+        <button type="submit" id="btnStock" class="btn btn-default">
+            <span class="glyphicon glyphicon-floppy-disk"></span> Add stock
+        </button>
+        <button type="button" id="btnReset" class="btn btn-default" data-bind="click: SelectedStock.reset">
+            <span class="glyphicon glyphicon-remove"></span> Reset form
+        </button>
+    </fieldset>
+</form>
